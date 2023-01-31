@@ -43,7 +43,7 @@ const Home = () => {
 
             <h1
               className="
-                  text-6xl sm:text-8xl font-bold text-[#eee]
+                  text-4xl sm:text-6xl md:text-8xl font-bold text-[#eee]
                   font-public-sans pr-0 sm:pr-10
                   transition-all duration-500"
             >
