@@ -55,7 +55,7 @@ const Navbar = () => {
           : "bg-gradient-to-b from-[#000] to-[#00000093] shadow-sm shadow-black backdrop-blur-lg"
       }
         flex justify-between items-center 
-        w-full h-20  fixed z-10
+        w-full h-10 md:h-20  fixed z-10
         transition-all duration-200`}
     >
       <div
@@ -67,7 +67,7 @@ const Navbar = () => {
       >
         <h1
           className="
-                text-5xl font-labelle
+                text-2xl md:text-5xl font-labelle
                 cursor-pointer text-[#ddd]
                 transition-all duration-500"
         >
@@ -104,7 +104,7 @@ const Navbar = () => {
           nav
             ? "backdrop-blur-lg w-full"
             : "hidden opacity-0 backdrop-blur-none w-0"
-        } h-screen absolute top-20 sm:hidden transition-all duration-300`}
+        } h-screen absolute top-10 md:top-20 sm:hidden transition-all duration-300`}
       >
         <div
           className="

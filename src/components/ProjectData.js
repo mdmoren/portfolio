@@ -19,7 +19,7 @@ export const ProjectData = [
   },
   {
     id: 2,
-    title: "project2",
+    title: "project 2",
     description: `in progress
         `,
     picture: project2,
@@ -30,7 +30,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    title: "project3",
+    title: "project 3",
     description: `in progress
         `,
     picture: project3,

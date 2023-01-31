@@ -15,7 +15,7 @@ const ProjectPopup = ({ open, onClose, id }) => {
     >
       <div
         className="
-            w-full xs:w-4/5 sm:w-3/5 h-fit bg-[#55555580] p-5 xs:rounded-xl
+            flex flex-col w-full xs:w-4/5 sm:w-3/5 h-full xs:h-fit bg-[#55555580] p-5 xs:rounded-xl
             "
       >
         <div className="flex justify-between pb-5">
@@ -37,7 +37,7 @@ const ProjectPopup = ({ open, onClose, id }) => {
                 src={ProjectData.at(id - 1).picture}
                 alt=""
                 className="
-                          shadow-md shadow-black  h-80 w-full object-cover mb-4"
+                          shadow-md shadow-black h-40 sm:h-60 md:h-80 w-full object-cover mb-4"
               />
             </div>
 

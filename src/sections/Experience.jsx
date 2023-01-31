@@ -18,7 +18,7 @@ const Skills = () => {
   const [projectId, setProjectId] = useState(0);
 
   const iconStyle =
-    "flex-shrink-0 text-[#ccc] group-hover:text-[#eee] text-3xl mx-5";
+    "flex-shrink-0 text-[#ccc] group-hover:text-[#eee] text-xl sm:text-3xl mx-5";
 
   function openSetId(id) {
     setOpenPopup(true);
@@ -119,13 +119,13 @@ const Skills = () => {
                         src={item.picture}
                         alt="..."
                         className="
-                            relative pb-5 w-full h-40 sm:h-80 object-center object-cover
+                            relative pb-5 w-full h-40 sm:h-60 md:h-80 object-center object-cover
                             group-hover:pb-0  
                             transition-all duration-500"
                       />
                       <div
                         className="
-                            absolute w-full h-40 sm:h-80 bottom-0
+                            absolute w-full h-40 sm:h-60 md:h-80 bottom-0
                             pb-5 group-hover:pb-0 
                             transition-all duration-500"
                       >
@@ -181,11 +181,11 @@ const Skills = () => {
                   <div
                     key={id}
                     className="
-                    flex flex-row justify-start items-center py-2
-                    h-3/4 group "
+                    flex flex-row justify-start items-center sm:py-2
+                    sm:h-3/4 group "
                   >
                     {src}
-                    <p className="font-public-sans text-lg text-[#ccc] hover:text-[#eee]">
+                    <p className="font-public-sans text-sm sm:text-lg text-[#ccc] hover:text-[#eee]">
                       {title}
                     </p>
                   </div>
