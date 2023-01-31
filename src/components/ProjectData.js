@@ -1,3 +1,7 @@
+import project1 from "../pictures/project/project1.jpg";
+import project2 from "../pictures/project/test2.jpg";
+import project3 from "../pictures/project/test3.jpg";
+
 export const ProjectData = [
   {
     id: 1,
@@ -7,7 +11,7 @@ export const ProjectData = [
         generator. My favorite feature is the drag and drop functionality. The tasks are saved
         using local storage.
         `,
-    picture: "/src/pictures/project/marks-dashboard-1.png",
+    picture: project1,
     liveLink: "https://simple-dashboard.herokuapp.com/",
     codeLink: "https://github.com/mdmoren/simple-dashboard",
     stack: ["ReactJS", "Javascript", "TailwindCSS", "HTML", "CSS"],
@@ -15,32 +19,24 @@ export const ProjectData = [
   },
   {
     id: 2,
-    title: "Project2",
-    description: `This is project 2
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aperiam saepe hic, alias nam laboriosam molestias deserunt 
-        cum eos excepturi tempora facere cumque voluptate animi 
-        doloremque, mollitia sunt, ullam repellendus est?
+    title: "project2",
+    description: `in progress
         `,
-    picture: "/src/pictures/project/test2.jpg",
+    picture: project2,
     liveLink: "",
     codeLink: "",
-    stack: ["test", "test", "test"],
+    stack: [],
     style: "",
   },
   {
     id: 3,
-    title: "Project3",
-    description: `This is project 3
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Aperiam saepe hic, alias nam laboriosam molestias deserunt 
-        cum eos excepturi tempora facere cumque voluptate animi 
-        doloremque, mollitia sunt, ullam repellendus est?
+    title: "project3",
+    description: `in progress
         `,
-    picture: "/src/pictures/project/test3.jpg",
+    picture: project3,
     liveLink: "",
     codeLink: "",
-    stack: ["test", "test", "test", "test"],
+    stack: [],
     style: "sm:col-span-2 md:col-auto",
   },
 ];

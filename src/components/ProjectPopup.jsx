@@ -71,11 +71,17 @@ const ProjectPopup = ({ open, onClose, id }) => {
             </div>
 
             <div className=" flex-col w-full h-full justify-end items-start pl-5">
-              <h1 className="underline mb-2">Created With:</h1>
+              {ProjectData.at(id - 1).stack.length > 0 ? (
+                <h1 className="underline mb-2">Created With:</h1>
+              ) : (
+                ""
+              )}
 
               <ul className="list-disc">
-                {ProjectData.at(id - 1).stack.map((i) => (
-                  <li className="">{i}</li>
+                {ProjectData.at(id - 1).stack.map((i, index) => (
+                  <li key={index} className="">
+                    {i}
+                  </li>
                 ))}
               </ul>
             </div>

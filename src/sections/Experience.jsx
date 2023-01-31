@@ -117,7 +117,7 @@ const Skills = () => {
                     <div className="w-full relative">
                       <img
                         src={item.picture}
-                        alt=""
+                        alt="..."
                         className="
                             relative pb-5 w-full h-40 sm:h-80 object-center object-cover
                             group-hover:pb-0  
