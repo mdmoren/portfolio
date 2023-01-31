@@ -43,9 +43,8 @@ const About = () => {
               <p className="p-4 text-lg sm:text-2xl sm:font-bold  max-w-xl text-center ">
                 Hello, my name is Mark Moreno and I am a Software Engineer. I am
                 a creative and driven individual who is always looking for new
-                challenges and opportunities to learn and grow. In my free time,
-                I enjoy soccer, exercise, and playing video games. I am excited
-                to share my work and experience with you through my portfolio.
+                challenges and opportunities to learn and grow. I am excited to
+                share my work and experience with you through my portfolio.
                 Thank you for visiting!
               </p>
               <Link
