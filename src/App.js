@@ -1,7 +1,19 @@
+import Navbar from "./components/Navbar";
+import Home from "./sections/Home";
+import About from "./sections/About";
+import Experience from "./sections/Experience";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div className="font-bold underline">
-      react app w/o boilerplate
+    <div>
+      <Navbar />
+      <Home />
+      <div className="h-10 bg-[#000] w-full"></div>
+      <About />
+      <div className="h-10 bg-[#000] w-full"></div>
+      <Experience />
+      <Footer />
     </div>
   );
 }
