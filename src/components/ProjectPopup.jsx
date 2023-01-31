@@ -41,7 +41,7 @@ const ProjectPopup = ({ open, onClose, id }) => {
               />
             </div>
 
-            <div className="w-full flex flex-row justify-center">
+            <div className="w-full flex flex-row justify-center h-10">
               <div className="mr-1 w-full bg-[#333] hover:bg-[#555] flex justify-center items-center text-md text-[#777] hover:text-[#ddd] transition-all duration-300 cursor-pointer rounded-md">
                 <a
                   href={ProjectData.at(id - 1).liveLink}

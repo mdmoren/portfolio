@@ -10,16 +10,16 @@ const Footer = () => {
         smooth
         duration={500}
         className="
-        group flex justify-center items-center
+        group flex justify-between items-center
         text-[#aaa] hover:text-[#ddd] text-md rounded-md
         bg-[#000] hover:bg-[#111] font-public-sans tracking-wider
-        py-2 px-4 mr-2 transition-all duration-500 
+        py-2 px-4 mr-2 transition-all duration-500 w-60
         cursor-pointer"
       >
         Back to top
         <HiOutlineArrowNarrowRight
           className="
-            ml-2 group-hover:-rotate-90 group-hover:text-[#2980b9]
+             group-hover:-rotate-90 group-hover:text-[#2980b9]
             transition-all duration-300"
           size={20}
         />

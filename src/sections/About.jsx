@@ -34,13 +34,13 @@ const About = () => {
             "
           >
             <div>
-              <h1 className="text-4xl font-bold text-[#eee]">
+              <h1 className="text-2xl sm:text-3xl font-bold text-[#eee]">
                 About Me
                 <div className="flex flex-1 h-[4px] bg-[#c0392b] rounded-sm mb-5"></div>
               </h1>
             </div>
             <div className="bg-[#00000080] sm:bg-transparent rounded-lg text-[#eee]">
-              <p className="p-4 text-lg sm:text-2xl sm:font-bold  max-w-xl text-center ">
+              <p className="p-4 text-md sm:text-xl md:text-2xl sm:font-bold  max-w-xl text-center ">
                 Hello, my name is Mark Moreno and I am a Software Engineer. I am
                 a creative and driven individual who is always looking for new
                 challenges and opportunities to learn and grow. I am excited to
@@ -52,7 +52,7 @@ const About = () => {
                 smooth
                 duration={500}
                 className="
-                    group flex w-4/5 sm:w-2/3 mx-auto justify-between items-center my-4 px-3
+                    group flex w-60 mx-auto justify-between items-center my-4 px-3
                     bg-[#00000080] hover:bg-[#000] rounded-lg h-10
                     text-[#aaa] hover:text-[#ddd]"
               >
