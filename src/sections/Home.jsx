@@ -23,13 +23,13 @@ const Home = () => {
         <div
           className="
             flex flex-col w-full h-full justify-center 
-            items-center sm:items-start p-10
+            items-center sm:items-start p-10 md:pl-20 lg:pl-40
             transition-all duration-500"
         >
           <div
             className="
                 flex flex-row sm:flex-col 
-                justify-center items-end sm:items-start
+                justify-center items-end sm:items-start 
                 pb-5"
           >
             <h1
@@ -104,17 +104,6 @@ const Home = () => {
               />
             </Link>
           </div>
-        </div>
-
-        {/* BOX 2 */}
-        <div
-          className="
-            flex flex-col w-full h-full justify-center items-center
-            transition-all duration-500 md:min-w-320"
-        >
-          <h1 className="max-w-md text-md font-bold text-[#aaa]">
-            [ Add Art Here. ]
-          </h1>
         </div>
       </div>
     </div>
