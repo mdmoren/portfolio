@@ -1,5 +1,5 @@
 import project1 from "../pictures/project/project1.jpg";
-import project2 from "../pictures/project/test2.jpg";
+import project2 from "../pictures/project/project2.jpg";
 import project3 from "../pictures/project/test3.jpg";
 
 export const ProjectData = [
@@ -19,12 +19,12 @@ export const ProjectData = [
   },
   {
     id: 2,
-    title: "project 2",
+    title: "Informative Website",
     description: `in progress
         `,
     picture: project2,
-    liveLink: "",
-    codeLink: "",
+    liveLink: "https://creativity-and-healing.herokuapp.com/",
+    codeLink: "https://github.com/mdmoren/Creativity-and-Healing",
     stack: [],
     style: "",
   },
